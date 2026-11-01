@@ -1,0 +1,4 @@
+# Xcode lisansı kabul edilmemiş makinelerde derlemenin çalışması için Komut Satırı
+# Araçları kullanılır. force=false: ortamda DEVELOPER_DIR varsa o geçerlidir.
+[env]
+DEVELOPER_DIR = { value = "/Library/Developer/CommandLineTools", force = false }
